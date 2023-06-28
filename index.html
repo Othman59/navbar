@@ -22,10 +22,10 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     </button>
     <div class="col-md-8">
-      <div class="d-flex form-inputs">
-        <input class="form-control search-input" type="text" placeholder="Search any product...">
-        <i class="bx bx-search"></i>
-        </div>
+      <form class="d-flex form-inputs" method="post" action="http://localhost<?php echo LOCALPATH ?>user/search ">
+        <input class="form-control search-input" type="text" placeholder="Rechercher un utilisateur">
+        <i class="bx bx-search search-icon" onclick="submit()"></i>
+        </form> 
          </div>
       </div>
     </div>
@@ -47,5 +47,12 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script>
+    function myFunction (){
+            //alert('coucou');
+            document.forms["myform"].submit();
+    }
+</script>
+
 </body>
 </html>
