@@ -1,0 +1,32 @@
+.form-inputs{
+    position:relative;
+}
+.form-inputs .form-control{
+    height:47px; 
+}
+
+.form-inputs .form-control:focus{
+    box-shadow:none;
+    border:1px solid #000;
+}
+
+.form-inputs i{
+    position:absolute;
+    right:260px;
+    top:15px;
+}
+
+.bx-search {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+.search-input {
+    width: 50px;
+    max-width: 60%;
+    margin-left: 10%;
+  }
+  
+  
+  
